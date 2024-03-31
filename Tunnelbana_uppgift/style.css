@@ -12,7 +12,9 @@ body{
 }
 
 #container{
-    background-color: grey;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 5px;
     height:45vh;
     width: 30vw;
     margin:auto;
@@ -31,22 +33,31 @@ body{
     flex-direction: column;
 }
 
-#station{
-    background-color: beige;
+#from_station{
+    background-color:#9D9D9D;  
+    border: 2px solid black;  
     height:5vh;
     width:10vw;
     font-size: larger;
 }
 
-#stations{
-    background-color: beige;
+#to_station{
+    background-color: #9D9D9D;
+    border: 2px solid black;
     height:5vh;
     width:10vw;
     font-size: larger;
 }
 
 #button{
-    background-color: white;
+    background-color: (125,114,109);
     height:5vh;
     width:5vw;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.text{
+    color:white;
+    text-shadow: 1px 1px black;
 }
