@@ -10,14 +10,17 @@
     <div id="container">
         <form action="#" id="form">
             <label for="från_station"><b>Från</b></label>
-            <select name="från_station" id="station"></select>
+            <select name="från_station" id="from_station"></select>
             <br>
             <label for="till_station"><b>Till </b></label>
-            <select name="till_station" id="stations"></select>
+            <select name="till_station" id="to_station"></select>
             <br>
-            <button type="submit" value="Submit" id="button" onclick="myFunction()"><b>Submit</b></button>
+            <button type="submit" value="Submit" id="button"><b>Submit</b></button>
         </form>
-        <p id="minuter"><b>Antal minuter: </b></p>
+        <br>
+        <p class="text"><b>Antal stationer: </b><span id="station_output"></span></p>
+        <p class="text"><b>Restid: </b><span id="restid_output">0</span> minuter </p>
+        <p class="text"><b>Ankomsttid: </b><span id="ankomst_output"></span></p>
     </div>
     
     <script src="script.js"></script>
